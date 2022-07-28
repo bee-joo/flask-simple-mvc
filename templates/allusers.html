@@ -1,0 +1,23 @@
+<table border="1">
+    <caption>Все пользователи</caption>
+    <tr>
+        <th>Номер</th>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>E-mail</th>
+        <th>Город</th>
+        <th>Индекс</th>
+        <th>Адрес</th>
+    </tr>
+    {% for user in users %}
+        <tr>
+            <td><a href="/users/{{ user.id }}/">{{ user.id }}</a></td>
+            <td>{{ user.first_name }}</td>
+            <td>{{ user.last_name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.city }}</td>
+            <td>{{ user.post_index }}</td>
+            <td>{{ user.address }}</td>
+        </tr>
+    {% endfor %}
+</table>
