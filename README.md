@@ -21,7 +21,7 @@ P.S. [Slides (rus lang)](https://github.com/bee-joo/flask-simple-mvc/blob/main/F
 ```
 git clone https://github.com/bee-joo/flask-simple-mvc
 ```
-1. Install dependencies from [`requirements.txt`](./requirments.txt)
+1. Install dependencies from [`requirements.txt`](./requirements.txt)
 ```
 pip3 install -r requirements.txt
 ```
